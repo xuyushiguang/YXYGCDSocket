@@ -1,0 +1,337 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		560F03212090157D007ADE1F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 560F03202090157D007ADE1F /* AppDelegate.m */; };
+		560F03242090157D007ADE1F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 560F03232090157D007ADE1F /* ViewController.m */; };
+		560F03272090157D007ADE1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 560F03252090157D007ADE1F /* Main.storyboard */; };
+		560F03292090157D007ADE1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 560F03282090157D007ADE1F /* Assets.xcassets */; };
+		560F032C2090157D007ADE1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 560F032A2090157D007ADE1F /* LaunchScreen.storyboard */; };
+		560F032F2090157D007ADE1F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 560F032E2090157D007ADE1F /* main.m */; };
+		560F0337209015B1007ADE1F /* YXYGCDSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 560F0335209015B1007ADE1F /* YXYGCDSocket.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		560F031C2090157D007ADE1F /* YXYGCDSocketClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YXYGCDSocketClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		560F031F2090157D007ADE1F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		560F03202090157D007ADE1F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		560F03222090157D007ADE1F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		560F03232090157D007ADE1F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		560F03262090157D007ADE1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		560F03282090157D007ADE1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		560F032B2090157D007ADE1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		560F032D2090157D007ADE1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		560F032E2090157D007ADE1F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		560F0335209015B1007ADE1F /* YXYGCDSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXYGCDSocket.m; sourceTree = "<group>"; };
+		560F0336209015B1007ADE1F /* YXYGCDSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXYGCDSocket.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		560F03192090157D007ADE1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		560F03132090157D007ADE1F = {
+			isa = PBXGroup;
+			children = (
+				560F031E2090157D007ADE1F /* YXYGCDSocketClient */,
+				560F031D2090157D007ADE1F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		560F031D2090157D007ADE1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				560F031C2090157D007ADE1F /* YXYGCDSocketClient.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		560F031E2090157D007ADE1F /* YXYGCDSocketClient */ = {
+			isa = PBXGroup;
+			children = (
+				560F0336209015B1007ADE1F /* YXYGCDSocket.h */,
+				560F0335209015B1007ADE1F /* YXYGCDSocket.m */,
+				560F031F2090157D007ADE1F /* AppDelegate.h */,
+				560F03202090157D007ADE1F /* AppDelegate.m */,
+				560F03222090157D007ADE1F /* ViewController.h */,
+				560F03232090157D007ADE1F /* ViewController.m */,
+				560F03252090157D007ADE1F /* Main.storyboard */,
+				560F03282090157D007ADE1F /* Assets.xcassets */,
+				560F032A2090157D007ADE1F /* LaunchScreen.storyboard */,
+				560F032D2090157D007ADE1F /* Info.plist */,
+				560F032E2090157D007ADE1F /* main.m */,
+			);
+			path = YXYGCDSocketClient;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		560F031B2090157D007ADE1F /* YXYGCDSocketClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 560F03322090157D007ADE1F /* Build configuration list for PBXNativeTarget "YXYGCDSocketClient" */;
+			buildPhases = (
+				560F03182090157D007ADE1F /* Sources */,
+				560F03192090157D007ADE1F /* Frameworks */,
+				560F031A2090157D007ADE1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YXYGCDSocketClient;
+			productName = YXYGCDSocketClient;
+			productReference = 560F031C2090157D007ADE1F /* YXYGCDSocketClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		560F03142090157D007ADE1F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = aojinrui;
+				TargetAttributes = {
+					560F031B2090157D007ADE1F = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 560F03172090157D007ADE1F /* Build configuration list for PBXProject "YXYGCDSocketClient" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 560F03132090157D007ADE1F;
+			productRefGroup = 560F031D2090157D007ADE1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				560F031B2090157D007ADE1F /* YXYGCDSocketClient */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		560F031A2090157D007ADE1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				560F032C2090157D007ADE1F /* LaunchScreen.storyboard in Resources */,
+				560F03292090157D007ADE1F /* Assets.xcassets in Resources */,
+				560F03272090157D007ADE1F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		560F03182090157D007ADE1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				560F03242090157D007ADE1F /* ViewController.m in Sources */,
+				560F032F2090157D007ADE1F /* main.m in Sources */,
+				560F0337209015B1007ADE1F /* YXYGCDSocket.m in Sources */,
+				560F03212090157D007ADE1F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		560F03252090157D007ADE1F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				560F03262090157D007ADE1F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		560F032A2090157D007ADE1F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				560F032B2090157D007ADE1F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		560F03302090157D007ADE1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		560F03312090157D007ADE1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		560F03332090157D007ADE1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7H7XN5Z7HC;
+				INFOPLIST_FILE = YXYGCDSocketClient/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ogemray.YXYGCDSocketClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		560F03342090157D007ADE1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7H7XN5Z7HC;
+				INFOPLIST_FILE = YXYGCDSocketClient/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ogemray.YXYGCDSocketClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		560F03172090157D007ADE1F /* Build configuration list for PBXProject "YXYGCDSocketClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				560F03302090157D007ADE1F /* Debug */,
+				560F03312090157D007ADE1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		560F03322090157D007ADE1F /* Build configuration list for PBXNativeTarget "YXYGCDSocketClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				560F03332090157D007ADE1F /* Debug */,
+				560F03342090157D007ADE1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 560F03142090157D007ADE1F /* Project object */;
+}
